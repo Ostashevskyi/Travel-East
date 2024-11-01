@@ -23,6 +23,7 @@ body {
   margin-inline-end: auto;
   position: relative;
   max-width: 1240px;
+  padding: 0px 16px;
 }
 
 @layer base {
