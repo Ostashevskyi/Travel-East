@@ -11,7 +11,7 @@ const Header = () => {
       </section>
 
       <div className="flex">
-        <ul className="flex gap-12">
+        <ul className="flex gap-12 items-center">
           {NAV_LISTS.map((list, i) => (
             <li key={i}>
               <a href="#" className="text-base leading-5">
@@ -21,7 +21,7 @@ const Header = () => {
           ))}
           <li>
             <Button>
-              <p className="font-medium">Book now</p>
+              <p className="font-semibold text-black">Book now</p>
             </Button>
           </li>
         </ul>

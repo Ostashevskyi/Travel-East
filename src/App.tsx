@@ -2,7 +2,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen h-screen font-Lexen-Exa">
       <div
         className="h-full w-full bg bg-cover bg-center"
         style={{

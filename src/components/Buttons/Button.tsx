@@ -6,7 +6,7 @@ type TButton = {
 
 const Button = ({ children }: TButton) => {
   return (
-    <button id="headerBtn" className="w-full bg-white rounded-xl px-3">
+    <button id="headerBtn" className="w-full bg-white rounded-xl px-3 py-1">
       {children}
     </button>
   );
