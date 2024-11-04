@@ -33,16 +33,18 @@ const Hero = () => {
   };
 
   return (
-    <section className="screen-max-width h-2/3 w-full relative  ">
-      <div className="relative w-full h-full">
-        <div className="absolute w-full top-1/3 flex justify-between items-center">
+    <section className="screen-max-width h-1/2 w-full relative  ">
+      <div className="relative w-full md:h-full h-full">
+        <div className="absolute w-full lg:top-1/3 top-[15%] sm:top-1/4  flex max-md:flex-col justify-between items-center max-md:gap-10">
           <div id="hero-main">
-            <section className="uppercase mb-12">
-              <p className="text-2xl font-light tracking-widest">Rest with</p>
-              <h1 className="font-extrabold text-9xl tracking-widest">
+            <section className="uppercase mb-12 max-md:">
+              <p className="text-2xl max-sm:text-xl font-light tracking-widest">
+                Rest with
+              </p>
+              <h1 className="font-extrabold text-9xl max-sm:text-6xl tracking-widest">
                 {hero.title}
               </h1>
-              <p className="text-2xl font-light">
+              <p className="text-2xl max-sm:text-xl font-light">
                 Join Us and Experience the True Beauty of Asia
               </p>
             </section>
@@ -56,11 +58,14 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-7" id="hero-aside">
+          <div
+            className="flex flex-col gap-7 max-md:flex-row max-md:items-center"
+            id="hero-aside"
+          >
             <button onClick={() => handleHeroClick(HERO_CITY.japan)}>1</button>
-            <p className="w-14 h-px border rotate-90" />
+            <p className="w-14 h-px border md:rotate-90" />
             <button onClick={() => handleHeroClick(HERO_CITY.china)}>2</button>
-            <p className="w-14 h-px border rotate-90" />
+            <p className="w-14 h-px border md:rotate-90" />
             <button onClick={() => handleHeroClick(HERO_CITY.korea)}>3</button>
           </div>
         </div>
