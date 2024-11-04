@@ -20,9 +20,7 @@ const Header = () => {
             </li>
           ))}
           <li>
-            <Button>
-              <p className="font-semibold text-black">Book now</p>
-            </Button>
+            <Button>Book now</Button>
           </li>
         </ul>
       </div>

@@ -1,6 +1,9 @@
 import {
+  chinaBg,
   churchLakeKorea,
   gateCloudsKorea,
+  japanBg,
+  koreaBg,
   oldNewKorea,
 } from "./../utils/index";
 import {
@@ -28,7 +31,9 @@ export const NAV_LISTS = ["Destinations", "Package Deals", "About Us"];
 
 export const HERO_CITY = {
   japan: {
+    id: 0,
     title: "Japan",
+    bg: japanBg,
     cards: [
       {
         id: 0,
@@ -51,7 +56,9 @@ export const HERO_CITY = {
     ],
   },
   china: {
+    id: 1,
     title: "China",
+    bg: chinaBg,
     cards: [
       {
         id: 0,
@@ -74,7 +81,9 @@ export const HERO_CITY = {
     ],
   },
   korea: {
+    id: 2,
     title: "Korea",
+    bg: koreaBg,
     cards: [
       {
         id: 0,

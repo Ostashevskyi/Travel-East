@@ -52,6 +52,13 @@ import distance from "/assets/icons/distance.svg";
 import chinaHistory from "/assets/icons/china-history.svg";
 import japanCulture from "/assets/icons/japan-culture.svg";
 import koreaInnovations from "/assets/icons/korea-innovations.svg";
+import play from "/assets/icons/play.svg";
+
+// Backgrounds
+import japan from "/assets/images/backgrounds/japan-bg.png";
+import china from "/assets/images/backgrounds/china-bg.png";
+import korea from "/assets/images/backgrounds/korea-bg.png";
+import form from "/assets/images/backgrounds/book-now.png";
 
 // Exporting SVG
 export const arrowsIcn = arrows;
@@ -59,6 +66,7 @@ export const distanceIcn = distance;
 export const chinaHistoryIcn = chinaHistory;
 export const japanCultureIcn = japanCulture;
 export const koreaInnovationsIcn = koreaInnovations;
+export const playIcn = play;
 
 // Exporting the imported images
 export const cityFestivalChina = cityFestivalChinaDeal;
@@ -98,3 +106,8 @@ export const manFeedbackImg = manFeedback;
 
 export const aboutUsImg = aboutUsPicture;
 export const logo = logoImg;
+
+export const japanBg = japan;
+export const koreaBg = korea;
+export const chinaBg = china;
+export const formBg = form;
