@@ -1,9 +1,11 @@
-import { useHeroStore } from "./store/store";
-
-import Header from "./sections/Header";
-import Hero from "./components/Hero/Hero";
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+import Hero from "./sections/Hero";
+import Header from "./sections/Header";
+
+import { useHeroStore } from "./store/store";
+import Destinations from "./sections/Destinations";
 
 function App() {
   const { hero } = useHeroStore((state) => state);
@@ -23,6 +25,7 @@ function App() {
       >
         <Header />
         <Hero />
+        <Destinations />
       </div>
     </div>
   );

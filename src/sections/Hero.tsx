@@ -1,17 +1,16 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
-import Button from "../Buttons/Button";
+import Button from "../components/Buttons/Button";
+import HeroCard from "../components/Cards/HeroCard";
 
-import { HERO_CITY } from "../../constants";
+import { HERO_CITY } from "./../constants";
 
-import HeroCards from "./HeroCards";
+import { playIcn } from "../utils";
 
-import { useHeroStore } from "../../store/store";
+import { useHeroStore } from "../store/store";
 
-import { THero } from "../../types/Hero";
-
-import { playIcn } from "../../utils";
+import { THero } from "../types/Hero";
 
 const Hero = () => {
   const { hero, updateHero } = useHeroStore((state) => state);
@@ -33,9 +32,9 @@ const Hero = () => {
   };
 
   return (
-    <section className="screen-max-width h-1/2 md:h-[60%] lg:h-2/3 w-full relative  ">
-      <div className="relative w-full md:h-full h-full">
-        <div className="absolute w-full lg:top-1/3 top-[15%] sm:top-1/4  flex max-md:flex-col justify-between items-center max-md:gap-10">
+    <section className="screen-max-width h-[90%] w-full relative  ">
+      <div className="relative w-full h-1/2 ">
+        <div className="absolute w-full top-[10%] md:max-lg:top-1/4 lg:top-[40%] flex max-md:flex-col justify-between items-center max-md:gap-10">
           <div id="hero-main">
             <section className="uppercase mb-12 max-md:">
               <p className="text-2xl max-sm:text-xl font-light tracking-widest">
@@ -70,8 +69,15 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div id="hero-cards">
-        <HeroCards />
+      <div
+        id="hero-cards"
+        className="relative top-[5%] md:max-lg:top-[15%] md:top-1/4"
+      >
+        <section className="flex gap-5 max-md:flex-col">
+          {hero.cards.map((card, i) => (
+            <HeroCard key={hero.cards[i].title} card={card} />
+          ))}
+        </section>
       </div>
     </section>
   );

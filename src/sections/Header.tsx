@@ -1,10 +1,11 @@
-import { NAV_LISTS } from "../constants";
-import { logo } from "../utils";
 import Button from "../components/Buttons/Button";
+
+import { logo } from "../utils";
+import { NAV_LISTS } from "../constants";
 
 const Header = () => {
   return (
-    <header className="screen-max-width flex justify-between items-center">
+    <header className="screen-max-width flex justify-between items-center h-[10%] fixed">
       <section className="flex items-center">
         <img src={logo} alt="waves-logo" width={90} height={88} />
         <h2 className="uppercase max-md:hidden">Travel East</h2>
