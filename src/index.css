@@ -26,6 +26,10 @@ body {
   padding: 0px 16px;
 }
 
+.bg-blur {
+  backdrop-filter: blur(60px);
+}
+
 @layer base {
   @font-face {
     font-family: "Lexend Exa", sans-serif;
