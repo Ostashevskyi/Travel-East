@@ -1,5 +1,5 @@
 const Destinations = () => {
-  return <div>Destinations</div>;
+  return <div className="">Destinations</div>;
 };
 
 export default Destinations;
