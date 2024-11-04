@@ -84,7 +84,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div id="hero-cards" className="relative max-md:top-[10%]">
+        <div id="hero-cards" className="relative top-[10%] md:max-lg:top-0">
           <section className="flex gap-5 max-md:flex-col">
             {hero.cards.map((card, i) => (
               <HeroCard key={hero.cards[i].title} card={card} />

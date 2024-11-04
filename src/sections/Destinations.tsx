@@ -1,5 +1,5 @@
 const Destinations = () => {
-  return <div className="h-screen">Destinations</div>;
+  return <div className="">Destinations</div>;
 };
 
 export default Destinations;
