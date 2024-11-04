@@ -1,6 +1,6 @@
 import { NAV_LISTS } from "../constants";
 import { logo } from "../utils";
-import Button from "./Buttons/Button";
+import Button from "../components/Buttons/Button";
 
 const Header = () => {
   return (
