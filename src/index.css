@@ -21,13 +21,18 @@ body {
 .screen-max-width {
   margin-inline-start: auto;
   margin-inline-end: auto;
-  position: relative;
+  margin: auto;
   max-width: 1240px;
   padding: 0px 16px;
 }
 
 .bg-blur {
   backdrop-filter: blur(60px);
+}
+
+.header-blur {
+  backdrop-filter: blur(20px);
+  z-index: 50;
 }
 
 @layer base {
