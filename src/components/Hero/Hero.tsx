@@ -33,7 +33,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="screen-max-width h-1/2 w-full relative  ">
+    <section className="screen-max-width h-1/2 md:h-[60%] lg:h-2/3 w-full relative  ">
       <div className="relative w-full md:h-full h-full">
         <div className="absolute w-full lg:top-1/3 top-[15%] sm:top-1/4  flex max-md:flex-col justify-between items-center max-md:gap-10">
           <div id="hero-main">
