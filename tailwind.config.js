@@ -15,6 +15,9 @@ export default {
         "card-bg": "rgba(217, 217, 217, 0.03)",
         "sections-bg": "rgba(28, 32, 31, 1)",
       },
+      fontFamily: {
+        "Lexen-Exa": "Lexen Exa, sans-serif",
+      },
     },
   },
   plugins: [],

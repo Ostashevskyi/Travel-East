@@ -23,6 +23,17 @@ body {
   margin-inline-end: auto;
   position: relative;
   max-width: 1240px;
+  padding: 0px 16px;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap");
+  }
 }
 
 @layer utilities {
