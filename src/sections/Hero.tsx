@@ -8,7 +8,7 @@ import { HERO_CITY } from "./../constants";
 
 import { playIcn } from "../utils";
 
-import { useHeroStore } from "../store/store";
+import { useHeroStore } from "../store/heroStore";
 
 import { THero } from "../types/Hero";
 

@@ -53,6 +53,9 @@ import chinaHistory from "/assets/icons/china-history.svg";
 import japanCulture from "/assets/icons/japan-culture.svg";
 import koreaInnovations from "/assets/icons/korea-innovations.svg";
 import play from "/assets/icons/play.svg";
+import chevron from "/assets/icons/chevron.svg";
+import views from "/assets/icons/views.svg";
+import point from "/assets/icons/point.svg";
 
 // Backgrounds
 import japan from "/assets/images/backgrounds/japan-bg.png";
@@ -67,6 +70,9 @@ export const chinaHistoryIcn = chinaHistory;
 export const japanCultureIcn = japanCulture;
 export const koreaInnovationsIcn = koreaInnovations;
 export const playIcn = play;
+export const chevronIcn = chevron;
+export const viewsIcn = views;
+export const PointIcn = point;
 
 // Exporting the imported images
 export const cityFestivalChina = cityFestivalChinaDeal;

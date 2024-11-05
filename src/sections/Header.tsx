@@ -5,8 +5,8 @@ import { NAV_LISTS } from "../constants";
 
 const Header = () => {
   return (
-    <header className="header-blur  fixed top-0 left-0 right-0">
-      <div className="screen-max-width flex justify-between items-center">
+    <header className="header-blur h-16 fixed top-0 left-0 right-0">
+      <div className="screen-max-width flex h-full justify-between items-center">
         <section className="flex items-center">
           <img src={logo} alt="waves-logo" width={90} height={88} />
           <h2 className="uppercase max-md:hidden">Travel East</h2>
