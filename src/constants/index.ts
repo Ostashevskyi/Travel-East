@@ -107,47 +107,10 @@ export const HERO_CITY = {
   },
 };
 
-export const DESTINATIONS_CARDS = {
-  china: {
-    cards: [
-      {
-        id: 0,
-        image: churchLionChina,
-        title: "Forbidden City",
-        views: 330,
-        destination: "Beijing",
-      },
-      {
-        id: 1,
-        image: bridgeLakeChina,
-        title: "Kunming Lake",
-        views: 225,
-        destination: "Beidaihe",
-      },
-      {
-        id: 2,
-        image: churchChina,
-        title: "Temple of Heaven",
-        views: 286,
-        destination: "Beijing",
-      },
-      {
-        id: 3,
-        image: greatWallChina,
-        title: "Great Wall Of China",
-        views: 645,
-        destination: "Beijing",
-      },
-      {
-        id: 4,
-        image: cityLakeKorea,
-        title: "Summer Palace",
-        views: 437,
-        destination: "Beijing",
-      },
-    ],
-  },
-  japan: {
+export const DESTINATIONS_CARDS = [
+  {
+    id: 0,
+    title: "Japan",
     cards: [
       {
         id: 0,
@@ -155,6 +118,7 @@ export const DESTINATIONS_CARDS = {
         title: "Castle Inuyama",
         views: 237,
         destination: "Inuyama",
+        type: "long",
       },
       {
         id: 1,
@@ -186,7 +150,52 @@ export const DESTINATIONS_CARDS = {
       },
     ],
   },
-  korea: {
+  {
+    id: 1,
+    title: "China",
+    cards: [
+      {
+        id: 0,
+        image: churchLionChina,
+        title: "Forbidden City",
+        views: 330,
+        destination: "Beijing",
+      },
+      {
+        id: 1,
+        image: bridgeLakeChina,
+        title: "Kunming Lake",
+        views: 225,
+        destination: "Beidaihe",
+      },
+      {
+        id: 2,
+        image: churchChina,
+        title: "Temple of Heaven",
+        views: 286,
+        destination: "Beijing",
+        type: "long",
+      },
+      {
+        id: 3,
+        image: greatWallChina,
+        title: "Great Wall Of China",
+        views: 645,
+        destination: "Beijing",
+      },
+      {
+        id: 4,
+        image: cityLakeKorea,
+        title: "Summer Palace",
+        views: 437,
+        destination: "Beijing",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    title: "Korea",
     cards: [
       {
         id: 0,
@@ -194,6 +203,7 @@ export const DESTINATIONS_CARDS = {
         title: "National Museum Of Korea",
         views: 589,
         destination: "Seoul",
+        type: "wide",
       },
       {
         id: 1,
@@ -201,6 +211,7 @@ export const DESTINATIONS_CARDS = {
         title: "Park Lotte World",
         views: 228,
         destination: "Seoul",
+        type: "long",
       },
       {
         id: 2,
@@ -224,7 +235,7 @@ export const DESTINATIONS_CARDS = {
         destination: "Seoul",
       },
       {
-        id: 4,
+        id: 5,
         image: gateCloudsKorea,
         title: "Gyeong Palace",
         views: 426,
@@ -232,4 +243,4 @@ export const DESTINATIONS_CARDS = {
       },
     ],
   },
-};
+];

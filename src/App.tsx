@@ -6,7 +6,7 @@ import Destinations from "./sections/Destinations";
 function App() {
   return (
     <>
-      <div className="h-screen w-full">
+      <div className="h-screen w-full font-Lexen-Exa">
         <Header />
         <Hero />
         <Destinations />

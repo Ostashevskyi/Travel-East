@@ -1,4 +1,4 @@
-import { THeroCard } from "../../types/HeroCard";
+import { THeroCard } from "../../types/Hero";
 
 type HeroCardProps = {
   card: THeroCard;

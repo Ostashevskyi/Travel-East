@@ -35,6 +35,52 @@ body {
   z-index: 50;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px;
+}
+
+.grid.korea {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px;
+}
+
+.img.long {
+  grid-row: span 2 / span 2;
+}
+
+.img.wide {
+  grid-column: span 2 / span 2;
+}
+
+@media screen and (max-width: 767px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid.korea {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+
+  .grid.korea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @layer base {
   @font-face {
     font-family: "Lexend Exa", sans-serif;
