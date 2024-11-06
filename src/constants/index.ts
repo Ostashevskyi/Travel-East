@@ -457,3 +457,21 @@ export const DELAS_CARS = [
     ],
   },
 ];
+
+export const ABOUT_US_BLOCKS = [
+  {
+    id: 0,
+    number: "12K",
+    title: "Total Destinations",
+  },
+  {
+    id: 1,
+    number: "10M+",
+    title: "Total Customers",
+  },
+  {
+    id: 2,
+    number: "5.0",
+    title: "Average Rating",
+  },
+];

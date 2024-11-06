@@ -3,6 +3,7 @@ import Header from "./sections/Header";
 
 import Destinations from "./sections/Destinations";
 import Deals from "./sections/Deals";
+import AboutUs from "./sections/AboutUs";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <Destinations />
         <Deals />
+        <AboutUs />
       </div>
     </>
   );
