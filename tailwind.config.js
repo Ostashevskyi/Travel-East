@@ -1,5 +1,3 @@
-import plugin from "tailwindcss";
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -17,6 +15,7 @@ export default {
         "card-bg": "rgba(217, 217, 217, 0.03)",
         "sections-bg": "rgba(28, 32, 31, 1)",
         "slider-btn-bg": "rgba(217, 217, 217, 0.1)",
+        "deals-card-bg": "rgba(47, 53, 51, 1)",
       },
       fontFamily: {
         "Lexen-Exa": "Lexen Exa, sans-serif",

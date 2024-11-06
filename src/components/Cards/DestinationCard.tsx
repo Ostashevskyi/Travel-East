@@ -1,5 +1,5 @@
 import { TDestinationCard } from "../../types/Destination";
-import { PointIcn, viewsIcn } from "../../utils";
+import { pointIcn, viewsIcn } from "../../utils";
 
 const DestinationCard = ({ card }: { card: TDestinationCard }) => {
   return (
@@ -17,7 +17,7 @@ const DestinationCard = ({ card }: { card: TDestinationCard }) => {
             <p>{card.views}</p>
           </div>
           <div className="flex gap-2 items-center">
-            <img src={PointIcn} alt="point" />
+            <img src={pointIcn} alt="point" />
             <p>{card.destination}</p>
           </div>
         </div>

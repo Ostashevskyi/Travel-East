@@ -23,7 +23,12 @@ body {
   margin-inline-end: auto;
   margin: auto;
   max-width: 1240px;
-  padding: 0px 16px;
+}
+
+@media screen and (max-width: 1439px) {
+  .screen-max-width {
+    padding: 0px 16px;
+  }
 }
 
 .bg-blur {
