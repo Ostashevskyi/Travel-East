@@ -2,6 +2,7 @@ import Hero from "./sections/Hero";
 import Header from "./sections/Header";
 
 import Destinations from "./sections/Destinations";
+import Deals from "./sections/Deals";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <Hero />
         <Destinations />
+        <Deals />
       </div>
     </>
   );

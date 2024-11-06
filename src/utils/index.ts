@@ -56,6 +56,9 @@ import play from "/assets/icons/play.svg";
 import chevron from "/assets/icons/chevron.svg";
 import views from "/assets/icons/views.svg";
 import point from "/assets/icons/point.svg";
+import clock from "/assets/icons/clock.svg";
+import check from "/assets/icons/check.svg";
+import star from "/assets/icons/star.svg";
 
 // Backgrounds
 import japan from "/assets/images/backgrounds/japan-bg.png";
@@ -72,7 +75,10 @@ export const koreaInnovationsIcn = koreaInnovations;
 export const playIcn = play;
 export const chevronIcn = chevron;
 export const viewsIcn = views;
-export const PointIcn = point;
+export const pointIcn = point;
+export const clockIcn = clock;
+export const checkIcn = check;
+export const starIcn = star;
 
 // Exporting the imported images
 export const cityFestivalChina = cityFestivalChinaDeal;
