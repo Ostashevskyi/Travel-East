@@ -46,13 +46,13 @@ const Hero = () => {
           <div className="absolute w-full top-1/4 lg:top-[40%] flex max-md:flex-col justify-between items-center max-md:gap-10">
             <div id="hero-main">
               <section className="uppercase mb-12 max-md:">
-                <p className="text-2xl max-sm:text-xl font-light tracking-widest">
+                <p className="text-2xl max-md:text-xl font-light tracking-widest">
                   Rest with
                 </p>
-                <h1 className="font-extrabold text-9xl max-sm:text-6xl tracking-widest">
+                <h1 className="font-extrabold text-9xl max-md:text-6xl tracking-widest">
                   {hero.title}
                 </h1>
-                <p className="text-2xl max-sm:text-xl font-light">
+                <p className="text-2xl max-md:text-xl font-light">
                   Join Us and Experience the True Beauty of Asia
                 </p>
               </section>
@@ -85,7 +85,7 @@ const Hero = () => {
           </div>
         </div>
         <div id="hero-cards" className="relative top-[10%] md:max-lg:top-0">
-          <section className="flex gap-5 max-md:flex-col">
+          <section className="flex gap-5 max-[425px]:flex-col flex-wrap justify-center">
             {hero.cards.map((card, i) => (
               <HeroCard key={hero.cards[i].title} card={card} />
             ))}

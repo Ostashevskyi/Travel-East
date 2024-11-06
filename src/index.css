@@ -86,6 +86,18 @@ body {
   }
 }
 
+@media (min-width: 425px) and (max-width: 767px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid.korea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @layer base {
   @font-face {
     font-family: "Lexend Exa", sans-serif;
