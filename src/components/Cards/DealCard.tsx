@@ -11,7 +11,7 @@ type DealCardProps = {
 
 const DealCard = ({ deal }: DealCardProps) => {
   return (
-    <div className="p-4 rounded-lg bg-deals-card-bg max-w-[400px] min-[600px]:max-md:max-w-[260px] md:max-[1200px]:max-w-[300px] ">
+    <div className="p-4 rounded-lg bg-deals-card-bg max-w-[400px] min-[600px]:max-md:max-w-[260px] md:max-[1200px]:max-w-[300px] min-[1200px]:max-[1440px]:max-w-[350px]">
       <img src={deal.image} alt={deal.image_alt} className="mb-1" />
       <h3 className="font-semibold text-base mb-3">{deal.title}</h3>
       <p className="font-medium text-sm mb-9">{deal.short_description}</p>
