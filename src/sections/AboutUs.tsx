@@ -58,7 +58,9 @@ const AboutUs = () => {
             </div>
           </section>
         </section>
-        <img src={aboutUsImg} alt="sunset people" />
+        <div className="flex-1 h-full max-w-fit">
+          <img src={aboutUsImg} alt="sunset people" />
+        </div>
       </div>
     </SectionWrapper>
   );
