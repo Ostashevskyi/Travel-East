@@ -14,10 +14,10 @@ const SectionWrapper = ({
       className={
         mobileFull
           ? "screen-max-width h-screen relative"
-          : "lg:h-screen w-full bg-sections-bg"
+          : "lg:h-screen max-h-fit w-full mt-[180px]"
       }
     >
-      <div className="screen-max-width">{children}</div>
+      <div className="screen-max-width h-full max-h-fit">{children}</div>
     </section>
   );
 };

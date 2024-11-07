@@ -19,7 +19,7 @@ const Deals = () => {
 
   return (
     <SectionWrapper>
-      <div className="flex items-center justify-between gap-6 pt-14 md:pt-20 lg:pt-28 mb-8">
+      <div className="flex items-center justify-between gap-6 mb-8">
         <section>
           <h2 className="font-semibold text-2xl md:text-3xl mb-7">
             Package Deals Top 2024
