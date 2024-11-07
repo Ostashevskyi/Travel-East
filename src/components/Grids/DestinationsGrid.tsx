@@ -15,7 +15,7 @@ const DestinationsGrid = ({ cards }: TDestinationsGrid) => {
     <div
       className={`grid ${
         destination.title === "Korea" ? destination.title.toLowerCase() : ""
-      } pb-10`}
+      }`}
     >
       {cards.map((card) => (
         <DestinationCard key={card.id} card={card} />
