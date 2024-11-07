@@ -251,58 +251,7 @@ export const DESTINATIONS_CARDS = [
   },
 ];
 
-export const DELAS_CARS = [
-  {
-    id: 0,
-    title: "Japan",
-    cards: [
-      {
-        id: 0,
-        title: "Cultural heritage of Japan",
-        short_description: "Tokio - Kyoto - Osaka | 500+ km",
-        image: cityWalkJapan,
-        image_alt: "Walking people in Japan City",
-        old_price: 1599,
-        new_price: 1399,
-        stars: 5,
-        comments_count: 87,
-        avg_rating: 4.9,
-        description:
-          "Visit traditional sakura gardens, tea ceremonies and the birthplace of sushi",
-        days: 7,
-      },
-      {
-        id: 1,
-        title: "Thermal vacation in Japan",
-        short_description: "Tokio - Hakone - Nara | 500+ km",
-        image: cityRiverJapan,
-        image_alt: "House nearby river",
-        old_price: 1399,
-        new_price: 1199,
-        stars: 5,
-        comments_count: 64,
-        avg_rating: 4.8,
-        description:
-          "Relax in Hakone's hot springs, visit Nara's deer park, and enjoy traditional Onsen baths",
-        days: 6,
-      },
-      {
-        id: 2,
-        title: "Gastronomic delights of Japan",
-        short_description: "Tokio - Hokkaido - Kyoto | 500+ km",
-        image: cityMountainJapan,
-        image_alt: "View on the Japan city",
-        old_price: 1299,
-        new_price: 1099,
-        stars: 4.5,
-        comments_count: 71,
-        avg_rating: 4.6,
-        description:
-          "Visit traditional sakura gardens, tea ceremonies and the birthplace of sushi",
-        days: 7,
-      },
-    ],
-  },
+export const DELAS_CARDS = [
   {
     id: 0,
     title: "Japan",

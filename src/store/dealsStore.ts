@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { DELAS_CARS } from "../constants";
+import { DELAS_CARDS } from "../constants";
 import { TDeal } from "../types/Deals";
 
 type State = {
@@ -11,6 +11,6 @@ type Action = {
 };
 
 export const useDealStore = create<State & Action>((set) => ({
-  deal: DELAS_CARS.find((card) => card.title === "Japan")!,
+  deal: DELAS_CARDS.find((card) => card.title === "Japan")!,
   updateDeal: (deal) => set(() => ({ deal: deal })),
 }));
