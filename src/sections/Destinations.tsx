@@ -1,10 +1,9 @@
-import RoundedButton from "../components/Buttons/RoundedButton";
+import SliderButton from "../components/Buttons/SliderButton";
 import DestinationsGrid from "../components/Grids/DestinationsGrid";
 import SectionWrapper from "../components/Wrappers/SectionWrapper";
 import { DESTINATIONS_CARDS } from "../constants";
 import useSlider from "../hooks/useSlider";
 import { useDestinationStore } from "../store/destinationStore";
-import { chevronIcn } from "../utils";
 
 const Destinations = () => {
   const { destination, updateDestination } = useDestinationStore(
@@ -29,20 +28,9 @@ const Destinations = () => {
           </p>
         </section>
         <div className="flex gap-4">
-          <RoundedButton onClick={() => handleChangeSlide(false)}>
-            <img
-              src={chevronIcn}
-              alt="chevron right"
-              className="rotate-180 h-3 w-3 md:h-4 md:w-4"
-            />
-          </RoundedButton>
-          <RoundedButton onClick={() => handleChangeSlide(true)}>
-            <img
-              src={chevronIcn}
-              alt="chevron right"
-              className="w-3 h-3 md:w-4 md:h-4"
-            />
-          </RoundedButton>
+          <SliderButton prev onClick={() => handleChangeSlide(false)} />
+
+          <SliderButton onClick={() => handleChangeSlide(true)} />
         </div>
       </div>
       <DestinationsGrid cards={destination.cards} />
