@@ -2,6 +2,7 @@ import RoundedButton from "../components/Buttons/RoundedButton";
 import DestinationsGrid from "../components/Grids/DestinationsGrid";
 import SectionWrapper from "../components/Wrappers/SectionWrapper";
 import { DESTINATIONS_CARDS } from "../constants";
+import useSlider from "../hooks/useSlider";
 import { useDestinationStore } from "../store/destinationStore";
 import { chevronIcn } from "../utils";
 
@@ -10,23 +11,11 @@ const Destinations = () => {
     (store) => store
   );
 
-  const handleChangeSlide = (toNextSlide: boolean) => {
-    const currentId = destination.id;
-
-    if (currentId === DESTINATIONS_CARDS.length - 1 && toNextSlide) {
-      updateDestination(DESTINATIONS_CARDS[0]);
-      return;
-    }
-
-    if (currentId === 0 && !toNextSlide) {
-      updateDestination(DESTINATIONS_CARDS[DESTINATIONS_CARDS.length - 1]);
-      return;
-    }
-
-    toNextSlide
-      ? updateDestination(DESTINATIONS_CARDS[currentId + 1])
-      : updateDestination(DESTINATIONS_CARDS[currentId - 1]);
-  };
+  const { handleChangeSlide } = useSlider({
+    store: destination,
+    updateStore: updateDestination,
+    cards: DESTINATIONS_CARDS,
+  });
 
   return (
     <SectionWrapper>

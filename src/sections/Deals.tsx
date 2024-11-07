@@ -1,11 +1,24 @@
-import RoundedButton from "../components/Buttons/RoundedButton";
 import DealCard from "../components/Cards/DealCard";
+
+import RoundedButton from "../components/Buttons/RoundedButton";
+
 import SectionWrapper from "../components/Wrappers/SectionWrapper";
 import { useDealStore } from "../store/dealsStore";
+import useSlider from "../hooks/useSlider";
 import { chevronIcn } from "../utils";
+import { DELAS_CARDS } from "../constants";
+
+import { useDealStore } from "../store/dealsStore";
 
 const Deals = () => {
   const { deal, updateDeal } = useDealStore((store) => store);
+
+  const { handleChangeSlide } = useSlider({
+    store: deal,
+    updateStore: updateDeal,
+    cards: DELAS_CARDS,
+  });
+
   return (
     <SectionWrapper>
       <div className="flex items-center justify-between gap-6 pt-14 md:pt-20 lg:pt-28 mb-8">
@@ -16,14 +29,14 @@ const Deals = () => {
           <p className="uppercase font-semibold text-xl md:text-2xl"></p>
         </section>
         <div className="flex gap-4">
-          <RoundedButton>
+          <RoundedButton onClick={() => handleChangeSlide(false)}>
             <img
               src={chevronIcn}
               alt="chevron right"
               className="rotate-180 h-3 w-3 md:h-4 md:w-4"
             />
           </RoundedButton>
-          <RoundedButton>
+          <RoundedButton onClick={() => handleChangeSlide(true)}> 
             <img
               src={chevronIcn}
               alt="chevron right"
