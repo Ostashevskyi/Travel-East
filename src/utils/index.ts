@@ -59,6 +59,7 @@ import point from "/assets/icons/point.svg";
 import clock from "/assets/icons/clock.svg";
 import check from "/assets/icons/check.svg";
 import star from "/assets/icons/star.svg";
+import quotes from "/assets/icons/quotes.svg";
 
 // Backgrounds
 import japan from "/assets/images/backgrounds/japan-bg.png";
@@ -79,6 +80,7 @@ export const pointIcn = point;
 export const clockIcn = clock;
 export const checkIcn = check;
 export const starIcn = star;
+export const quotesIcn = quotes;
 
 // Exporting the imported images
 export const cityFestivalChina = cityFestivalChinaDeal;

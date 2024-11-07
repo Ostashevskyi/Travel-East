@@ -44,7 +44,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr;
   grid-template-rows: repeat(2, calc(595px / 2 - 16px));
-
   gap: 16px;
 }
 
@@ -97,6 +96,22 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+/* //////////////// */
+/* @media screen {
+  .swiper {
+    overflow: visible !important;
+    width: 80%;
+  }
+} */
+
+div.swiper-slide.swiper-slide-prev > div {
+  transform: scale(0.9);
+}
+
+div.swiper-slide.swiper-slide-next > div {
+  transform: scale(0.9);
 }
 
 @layer base {
