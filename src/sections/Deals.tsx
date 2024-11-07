@@ -1,11 +1,10 @@
 import DealCard from "../components/Cards/DealCard";
 
-import RoundedButton from "../components/Buttons/RoundedButton";
+import SliderButton from "../components/Buttons/SliderButton";
 
 import SectionWrapper from "../components/Wrappers/SectionWrapper";
 import { useDealStore } from "../store/dealsStore";
 import useSlider from "../hooks/useSlider";
-import { chevronIcn } from "../utils";
 import { DELAS_CARDS } from "../constants";
 
 const Deals = () => {
@@ -29,20 +28,9 @@ const Deals = () => {
           </p>
         </section>
         <div className="flex gap-4">
-          <RoundedButton onClick={() => handleChangeSlide(false)}>
-            <img
-              src={chevronIcn}
-              alt="chevron right"
-              className="rotate-180 h-3 w-3 md:h-4 md:w-4"
-            />
-          </RoundedButton>
-          <RoundedButton onClick={() => handleChangeSlide(true)}>
-            <img
-              src={chevronIcn}
-              alt="chevron right"
-              className="w-3 h-3 md:w-4 md:h-4"
-            />
-          </RoundedButton>
+          <SliderButton prev onClick={() => handleChangeSlide(false)} />
+
+          <SliderButton onClick={() => handleChangeSlide(true)} />
         </div>
       </div>
       <div className="flex flex-wrap justify-center items-center gap-5 flex-col min-[600px]:flex-row">

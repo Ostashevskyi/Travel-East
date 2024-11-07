@@ -9,8 +9,11 @@ import {
   cityRiverJapan,
   cityWalkJapan,
   gateCloudsKorea,
+  girlBlondeFeedbackImg,
+  girlDarkEyeFeedbackImg,
   japanBg,
   koreaBg,
+  manFeedbackImg,
   oldNewKorea,
 } from "./../utils/index";
 import {
@@ -422,5 +425,32 @@ export const ABOUT_US_BLOCKS = [
     id: 2,
     number: "5.0",
     title: "Average Rating",
+  },
+];
+
+export const FEEDBACKS = [
+  {
+    id: 0,
+    user_image: girlBlondeFeedbackImg,
+    user_name: "Emily Johnson",
+    user_job: "Traveler Blogger",
+    feedback_text:
+      "Our trip to Japan was absolutely incredible! Every detail was taken care of, and we enjoyed every moment. The guides were very professional and provided a wealth of information about the history and culture of the places we visited. We particularly loved the cherry blossom tour, which was a breathtaking experience. The accommodations were top-notch, and the local cuisine was a delightful adventure on its own. From the bustling streets of Tokyo to the serene temples of Kyoto, every part of our journey was perfectly planned and executed. I will definitely use your services again for our next trips!",
+  },
+  {
+    id: 1,
+    user_image: girlDarkEyeFeedbackImg,
+    user_name: "Anna Martinez",
+    user_job: "Web Designer",
+    feedback_text:
+      "Our trip to Korea exceeded all our expectations! We loved the service and the personalized approach. We visited many interesting places, including the vibrant city of Seoul and the historic palaces. The cultural immersion activities, such as a traditional Korean cooking class and a visit to a local market, were fantastic. Our guide was passionate and knowledgeable, providing us with deep insights into Korean culture and history. The accommodation was comfortable, and the food was delicious. Thank you so much for an unforgettable journey!",
+  },
+  {
+    id: 2,
+    user_image: manFeedbackImg,
+    user_name: "Allan Po",
+    user_job: "Software Engineer",
+    feedback_text:
+      "Thank you so much for the amazing trip to China! Everything was organized to the highest standard, from hotels to excursions. The Great Wall tour was especially impressive, offering stunning views and an insightful history lesson. The local guides were incredibly knowledgeable and friendly, making our experience even more enriching. We also enjoyed the traditional tea ceremony and a visit to the Terracotta Warriors, which were highlights of our trip. The seamless coordination and attention to detail ensured we had a stress-free and enjoyable holiday. I highly recommend it to anyone who wants to experience the true essence of this fascinating country!",
   },
 ];

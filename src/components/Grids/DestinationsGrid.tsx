@@ -13,7 +13,7 @@ const DestinationsGrid = ({ cards }: TDestinationsGrid) => {
 
   return (
     <div
-      className={`grid ${
+      className={`grid lg:max-h-[595px] h-full ${
         destination.title === "Korea" ? destination.title.toLowerCase() : ""
       }`}
     >
