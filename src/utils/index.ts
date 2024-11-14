@@ -60,6 +60,12 @@ import clock from "/assets/icons/clock.svg";
 import check from "/assets/icons/check.svg";
 import star from "/assets/icons/star.svg";
 import quotes from "/assets/icons/quotes.svg";
+import call from "/assets/icons/call.svg";
+import geo from "/assets/icons/geo.svg";
+import instagram from "/assets/icons/instagram.svg";
+import twitter from "/assets/icons/twitter.svg";
+import telegram from "/assets/icons/telegram.svg";
+import facebook from "/assets/icons/facebook.svg";
 
 // Backgrounds
 import japan from "/assets/images/backgrounds/japan-bg.png";
@@ -81,6 +87,12 @@ export const clockIcn = clock;
 export const checkIcn = check;
 export const starIcn = star;
 export const quotesIcn = quotes;
+export const callIcn = call;
+export const geoIcn = geo;
+export const instagramIcn = instagram;
+export const facebookIcn = facebook;
+export const twitterIcn = twitter;
+export const telegramIcn = telegram;
 
 // Exporting the imported images
 export const cityFestivalChina = cityFestivalChinaDeal;
