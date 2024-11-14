@@ -13,7 +13,7 @@ export default {
         "sections-bg": "rgba(28, 32, 31, 1)",
         "slider-btn-bg": "rgba(217, 217, 217, 0.1)",
         "deals-card-bg": "rgba(47, 53, 51, 1)",
-        "form-iput": "rgba(119, 119, 119, 1)",
+        "form-input": "rgba(119, 119, 119, 1)",
       },
       fontFamily: {
         "Lexen-Exa": "Lexen Exa, sans-serif",

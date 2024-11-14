@@ -25,7 +25,7 @@ const Feedbacks = () => {
         </div>
       </SectionWrapper>
       <FeedbackSlider setSwiper={setSwiper} />
-      <p className="mt-11 uppercase font-medium text-2xl max-w-[700px] m-auto text-center">
+      <p className="px-4 mt-11 uppercase font-medium md:text-2xl text-lg max-w-[700px] m-auto text-center">
         Discover a world of adventure in Japan, China and Korea with our
         exclusive tours. Join us and experience the true beauty of Asia!
       </p>
