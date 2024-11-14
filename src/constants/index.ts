@@ -37,7 +37,12 @@ import {
   modernLakeKorea,
 } from "../utils";
 
-export const NAV_LISTS = ["Destinations", "Package Deals", "About Us"];
+export const NAV_LISTS = [
+  "Destinations",
+  "Package Deals",
+  "About Us",
+  "Feedbacks",
+];
 
 export const HERO_CITY = {
   japan: {

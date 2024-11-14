@@ -57,7 +57,7 @@ const Hero = () => {
                 </p>
               </section>
               <div className="flex items-center gap-4">
-                <div className="flex-center border border-white p-7 rounded-full">
+                <div className="flex-center border border-white-cream p-7 rounded-full">
                   <img src={playIcn} alt="play" width={22} height={22} />
                 </div>
                 <div className="flex flex-col gap-2">

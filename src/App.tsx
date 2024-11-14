@@ -5,6 +5,8 @@ import Destinations from "./sections/Destinations";
 import Deals from "./sections/Deals";
 import AboutUs from "./sections/AboutUs";
 import Feedbacks from "./sections/Feedbacks";
+import Form from "./sections/Form";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Deals />
         <AboutUs />
         <Feedbacks />
+        <Form />
+        <Footer />
       </div>
     </>
   );
