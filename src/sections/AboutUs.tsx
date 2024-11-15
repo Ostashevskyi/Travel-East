@@ -5,7 +5,7 @@ import { ABOUT_US_BLOCKS } from "../constants";
 
 const AboutUs = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="about">
       <div className="flex w-full gap-2 justify-between  max-lg:gap-6 max-lg:items-center max-lg:flex-col">
         <section className="flex-1 max-w-[505px] justify-between">
           <h2 className="text-3xl mb-[18px]">About Us</h2>

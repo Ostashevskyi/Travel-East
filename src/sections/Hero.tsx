@@ -40,6 +40,7 @@ const Hero = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
+      id="hero"
     >
       <div className="screen-max-width h-screen relative">
         <div className="relative w-full h-1/2 md:h-2/3 ">

@@ -38,10 +38,10 @@ import {
 } from "../utils";
 
 export const NAV_LISTS = [
-  "Destinations",
-  "Package Deals",
-  "About Us",
-  "Feedbacks",
+  { name: "Destinations", anchor: "#destinations" },
+  { name: "Package Deals", anchor: "#deals" },
+  { name: "About Us", anchor: "#about" },
+  { name: "Feedbacks", anchor: "#feedbacks" },
 ];
 
 export const HERO_CITY = {

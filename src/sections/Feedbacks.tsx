@@ -9,8 +9,8 @@ import SectionWrapper from "../components/Wrappers/SectionWrapper";
 const Feedbacks = () => {
   const [swiper, setSwiper] = useState<SwiperInstance>();
   return (
-    <section>
-      <SectionWrapper>
+    <>
+      <SectionWrapper id="feedbacks">
         <div className="flex items-center justify-between gap-6 mb-8">
           <section>
             <h2 className="font-semibold text-2xl md:text-3xl mb-7">
@@ -29,7 +29,7 @@ const Feedbacks = () => {
         Discover a world of adventure in Japan, China and Korea with our
         exclusive tours. Join us and experience the true beauty of Asia!
       </p>
-    </section>
+    </>
   );
 };
 

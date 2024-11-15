@@ -17,7 +17,7 @@ const Destinations = () => {
   });
 
   return (
-    <SectionWrapper>
+    <SectionWrapper id="destinations">
       <div className="flex items-center justify-between gap-6 mb-8">
         <section>
           <h2 className="font-semibold text-2xl md:text-3xl mb-7">

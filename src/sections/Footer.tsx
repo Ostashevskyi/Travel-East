@@ -1,3 +1,4 @@
+import HeaderLogo from "../components/Logo/HeaderLogo";
 import {
   callIcn,
   facebookIcn,
@@ -12,12 +13,7 @@ const Footer = () => {
   return (
     <footer className="py-6">
       <div className="screen-max-width flex h-full justify-between items-start max-md:grid max-md:grid-cols-2 max-md:place-content-center max-md:gap-x-2 max-md:justify-items-center">
-        <div className="flex items-center max-md:col-span-2">
-          <img src={logo} alt="waves-logo" width={90} height={88} />
-          <a className="uppercase" href="#">
-            Travel East
-          </a>
-        </div>
+        <HeaderLogo cn="max-md:col-span-2" />
         <div className="flex flex-col gap-7 pt-8">
           <div className="font-semibold">
             <div className="flex gap-1 items-center">
